@@ -1,9 +1,11 @@
 // Your code here
+
+var dodger = document.getElementById("dodger");
 dodger.style.backgroundColor = "#FF69B4";
 dodger.style.bottom = "0px";
 
 
-var dodger = document.getElementById("dodger");
+
 function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '');
   var left = parseInt(leftNumbers, 10)
